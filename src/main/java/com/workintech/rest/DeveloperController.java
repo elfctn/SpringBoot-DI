@@ -1,4 +1,4 @@
-package com.workintech.s17d2.rest;
+package com.workintech.rest;
 
 public class DeveloperController {
 }

@@ -1,9 +1,11 @@
 package com.workintech.s17d2;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.workintech.s17d2.model.*;
-import com.workintech.s17d2.rest.DeveloperController;
-import com.workintech.s17d2.tax.DeveloperTax;
+import com.workintech.model.Developer;
+import com.workintech.model.Experience;
+import com.workintech.model.JuniorDeveloper;
+import com.workintech.rest.DeveloperController;
+import com.workintech.tax.DeveloperTax;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
