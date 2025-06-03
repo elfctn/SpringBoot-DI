@@ -1,8 +1,7 @@
-package com.workintech.rest;
+package com.workintech.s17d2.rest;
 
-import com.workintech.model.Developer;
-import com.workintech.model.Experience;
-import com.workintech.tax.DeveloperTax;
+import com.workintech.s17d2.model.Developer;
+import com.workintech.s17d2.tax.DeveloperTax;
 import jakarta.annotation.PostConstruct;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
