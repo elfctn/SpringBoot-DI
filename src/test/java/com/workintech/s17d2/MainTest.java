@@ -1,11 +1,15 @@
 package com.workintech.s17d2;
 
+import com.workintech.s17d2.model.JuniorDeveloper;
+import com.workintech.s17d2.model.MidDeveloper;
+import com.workintech.s17d2.model.SeniorDeveloper;
+import com.workintech.s17d2.model.Developer;
+import com.workintech.s17d2.model.Experience;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.workintech.model.Developer;
-import com.workintech.model.Experience;
-import com.workintech.model.JuniorDeveloper;
-import com.workintech.rest.DeveloperController;
-import com.workintech.tax.DeveloperTax;
+
+
+import com.workintech.s17d2.rest.DeveloperController;
+import com.workintech.s17d2.tax.DeveloperTax;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +26,11 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
+
+
+
+
 
 @WebMvcTest(value = { DeveloperController.class})
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
