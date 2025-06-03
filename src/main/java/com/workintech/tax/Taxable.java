@@ -1,4 +1,7 @@
 package com.workintech.tax;
 
-public class Taxable {
+public interface Taxable {
+    double getSimpleTaxRate();
+    double getMiddleTaxRate();
+    double getUpperTaxRate();
 }
